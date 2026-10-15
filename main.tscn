@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dknffn1elucvr"]
+
+[ext_resource type="Texture2D" uid="uid://cr2cr51d05lys" path="res://icon.svg" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://eadm5nksxkme" path="res://tinkerbell.tscn" id="2_h2yge"]
+
+[node name="Node2D" type="Node2D" unique_id=1956033322]
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=57788196]
+position = Vector2(87, 194)
+texture = ExtResource("1_0xm2m")
+
+[node name="Tinkerbell15" parent="." unique_id=1458988107 instance=ExtResource("2_h2yge")]
+position = Vector2(617, 280)
+
+[node name="Tinkerbell16" parent="." unique_id=1093551531 instance=ExtResource("2_h2yge")]
+position = Vector2(281, 363)
